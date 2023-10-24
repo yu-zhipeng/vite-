@@ -1,0 +1,10 @@
+@import './nested/nested'
+
+$color ?= blue
+
+.stylus
+  color $color
+
+.stylus-additional-data
+  /* injected via vite.config.js */
+  color $injectedColor
